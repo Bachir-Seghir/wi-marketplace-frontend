@@ -30,6 +30,17 @@ npm install or yarn install
 
 [https://github.com/Bachir-Seghir/wi-marketplace-backend]
 
+## Connection to Backend Api 
+in the root folder you will find config.js file 
+==> this is the url of the backend in development mode 
+```sh
+export const endpoint = `http://localhost:5000/api/graphql`; 
+```
+==> switch to production mode by filling the " prodEndpoint " 
+```sh
+export const prodEndpoint = `fill me is when we deploy`;
+```
+
 # run project in dev mode
 
 ```sh

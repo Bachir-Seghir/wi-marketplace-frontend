@@ -1,0 +1,16 @@
+.socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+.socialMedia > * {
+  margin-right: 4px;
+  font-size: 14px;
+  color: gray;
+}
+
+#twitter {
+  color: #68add3;
+}

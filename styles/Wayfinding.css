@@ -1,0 +1,11 @@
+.wayfinding {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.wayfinding nav {
+  width: 100%;
+}
+.wayfinding a {
+  color: #111;
+}

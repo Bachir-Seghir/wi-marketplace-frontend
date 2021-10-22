@@ -1,0 +1,86 @@
+.list {
+  position: static;
+}
+
+.list__tree {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.list__branche {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+  height: 44px;
+
+  position: relative;
+  cursor: pointer;
+}
+.list__branche:hover {
+  background-color: #eaeded;
+}
+.list__branche p {
+  color: #111;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  width: 100%;
+  padding: 13px 20px 13px 36px;
+}
+.list__branche svg {
+  position: absolute;
+  right: 20px;
+  font-size: 16px;
+  color: gray;
+}
+.list__branche:hover > svg {
+  color: #111;
+}
+
+.subList {
+  position: absolute;
+  right: 1px;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  transform: translateX(100%);
+  transition: transform 300ms ease;
+}
+.subList.is-active {
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+.subList__return {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+  height: 44px;
+  padding: 13px 36px 13px 20px;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid #d5dbdb;
+}
+
+.subList__return span {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.subList__return:hover {
+  background-color: #eaeded;
+}
+.subList__return:hover > svg {
+  color: #111;
+}
+
+.subList__menu {
+  margin: 0;
+  padding: 0;
+}

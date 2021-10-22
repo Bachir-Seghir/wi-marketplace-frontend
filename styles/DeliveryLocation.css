@@ -1,0 +1,21 @@
+.deliveryLocation {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.deliveryLocation.large > a {
+  display: flex;
+  margin-left: 4px;
+  color: #2baaaa;
+  align-items: center;
+}
+
+.deliveryLocation.large > a > * {
+  margin-right: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.deliveryLocation.large > svg {
+  color: gray;
+}

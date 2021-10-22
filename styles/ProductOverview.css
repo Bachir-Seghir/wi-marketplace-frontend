@@ -1,0 +1,16 @@
+.productOverview {
+  width: 100%;
+}
+
+.productOverview > table {
+  width: 100%;
+}
+
+.productOverview__item > td {
+  padding: 8px 0;
+}
+.productOverview__item td:first-child {
+  width: 27%;
+  max-width: 120px;
+  padding-right: 30px;
+}
